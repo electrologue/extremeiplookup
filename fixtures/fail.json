@@ -1,0 +1,20 @@
+{
+  "businessName" : "",
+  "businessWebsite" : "",
+  "city" : "",
+  "continent" : "",
+  "country" : "",
+  "countryCode" : "",
+  "ipName" : "",
+  "ipType" : "",
+  "isp" : "",
+  "lat" : "",
+  "lon" : "",
+  "message" : "No API Key found, please get your API Key at https://extreme-ip-lookup.com",
+  "org" : "",
+  "query" : "10.10.10.10",
+  "region" : "",
+  "status" : "fail",
+  "timezone" : "",
+  "utcOffset" : ""
+}

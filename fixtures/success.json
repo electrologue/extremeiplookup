@@ -1,0 +1,19 @@
+{
+  "businessName": "",
+  "businessWebsite": "",
+  "city": "Naaldwijk",
+  "continent": "Europe",
+  "country": "Netherlands",
+  "countryCode": "NL",
+  "ipName": "customer.worldstream.nl",
+  "ipType": "Residential",
+  "isp": "WorldStream B.V.",
+  "lat": "51.99417",
+  "lon": "4.20972",
+  "org": "WorldStream B.V.",
+  "query": "109.236.91.3",
+  "region": "Zuid-Holland",
+  "status": "success",
+  "timezone": "Europe/Amsterdam",
+  "utcOffset": "+01:00"
+}
