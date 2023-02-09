@@ -8,7 +8,6 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"path"
 	"time"
 )
 
@@ -41,10 +40,7 @@ func NewClient(apiKey string) *Client {
 
 // Lookup gets all geolocation information about an IP address.
 func (c Client) Lookup(ctx context.Context, ip string) (*IPInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "json", ip))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("json", ip)
 
 	if c.apiKey != "" {
 		query := endpoint.Query()
